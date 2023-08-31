@@ -28,7 +28,7 @@ namespace EmployeeManagement
             Operations operations = new Operations();
             //operations.AddEmployee_payroll(employee);
             //operations.DeleteEmployee_payroll(14);
-            operations.GetAllEmployee_payroll();
+            //operations.GetAllEmployee_payroll();
             //Payroll employee1 = new Payroll()
             //{
             //    Id = 13,
@@ -46,6 +46,8 @@ namespace EmployeeManagement
             //    Net_pay = 1000
             //};
             //operations.UpdateEmployee_payroll(employee1);
+            //operations.ParticularRange("2023-01-01");
+            operations.Calculations();
         }
     }
 }
